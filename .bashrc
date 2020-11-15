@@ -113,10 +113,20 @@ fi
 PS1='\n \[\033[01;34m\]\w\[\033[00m\] \n $PS2'
 
 function mkcd(){
-    mkdir -r $1 && cd $1;
+    mkdir $1 && cd $1;
+}
+
+function ca(){
+    cd $1/exercises/hw2;
+    grep switch *;
 }
 
 function gitpush() {
     message="'$*'"
     git commit -am "$message"; git push;
 }
+
+TERM=xterm-256color
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux new -s default
+fi
