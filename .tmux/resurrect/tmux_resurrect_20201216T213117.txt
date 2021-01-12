@@ -1,0 +1,12 @@
+pane	default	1	:bash	0	:	0	:/home/rishabh	1	bash	:
+pane	default	2	:c291	0	:	0	:/home/rishabh/fall2020/c291/jelenang/snake_game	1	bash	:
+pane	default	3	:c291-grading	0	:	0	:/home/rishabh/fall2020/c291/alexanderbi/exercises/hw5	1	bash	:
+pane	default	4	:easyscore	1	:*	0	:/home/rishabh/projects/theeasyscore	1	vim	:vim templates/index.html
+pane	default	4	:easyscore	1	:*	1	:/home/rishabh/projects/theeasyscore	0	vim	:vim app.py
+pane	default	5	:ssh	0	:-	0	:/home/rishabh/Downloads	1	ssh	:ssh rishbob
+window	default	1	0	:	e0e4,211x55,0,0,25
+window	default	2	0	:	c160,211x55,0,0,3
+window	default	3	0	:	c301,105x55,0,0,4
+window	default	4	1	:*	f987,211x55,0,0{105x55,0,0,33,105x55,106,0,32}
+window	default	5	0	:-	60df,211x55,0,0,10
+state	default	

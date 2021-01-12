@@ -9,6 +9,7 @@ alias ....='cd ../../..'
 alias agi='sudo apt-get install'
 alias agp='sudo apt-get purge'
 alias agu='sudo apt-get update && sudo apt-get upgrade'
+alias ag='sudo apt-get'
 
 alias c='clear'
 alias h='history'
@@ -17,12 +18,9 @@ alias quit='q'
 alias a='alias'
 alias t='gnome-terminal'
 
-alias hsplit='tmux hsplit'
-alias vsplit='tmux vsplit'
 alias poweroff='sudo /sbin/poweroff'
-
-alias rb='reboot'
 alias reboot='/sbin/reboot'
+alias rb='reboot'
 alias restart='reboot'
 alias rs='reboot'
 alias sd='shutdown'
@@ -33,4 +31,22 @@ alias rmd='rm -rf'
 alias untar='tar -zxvf'
 alias open='xdg-open'
 
-alias gp='git push'
+# Tmux
+alias hs='tmux hsplit'
+alias vs='tmux vsplit'
+
+alias eb='vim ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias ea='vim ~/.bash_aliases'
+alias sa='source ~/.bash_aliases'
+alias ev='vim ~/.vimrc'
+alias ei='vim ~/.i3/config'
+alias et='vim ~/.tmux.conf'
+
+# Monitor layouts
+alias dupl="~/.screenlayouts/duplicate.sh"
+alias def="~/.screenlayouts/default.sh"
+alias game="~/.screenlayouts/gaming.sh"
+
+alias ip='/usr/sbin/arp -a'
+alias ipd='/sbin/route'

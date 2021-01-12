@@ -117,13 +117,17 @@ function mkcd(){
 }
 
 function ca(){
-    cd $1/exercises/hw2;
-    grep switch *;
+    cd $1;
+    git stash;
+    git clean -fd;
+    git checkout master;
+    git pull;
+    cd exercises;
 }
 
-function gitpush() {
-    message="'$*'"
-    git commit -am "$message"; git push;
+function gpush() {
+    message="$*"
+    git add .; git commit -m "$message"; git push;
 }
 
 TERM=xterm-256color

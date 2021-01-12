@@ -1,0 +1,8 @@
+pane	default	1	:easyscore	1	:*	0	:/home/rishabh/projects/theeasyscore	1	bash	:
+pane	default	1	:easyscore	1	:*	1	:/home/rishabh/projects/theeasyscore/info/final\ (deleted)	0	bash	:
+pane	default	2	:c291	0	:	0	:/home/rishabh/fall2020/c291/snake_game	1	bash	:
+pane	default	3	:c291-grading	0	:-	0	:/home/rishabh/fall2020/c291/sunil/exercises/hw2	1	bash	:
+window	default	1	1	:*	b714,211x55,0,0{115x55,0,0,10,95x55,116,0,11}
+window	default	2	0	:	c160,211x55,0,0,3
+window	default	3	0	:-	c161,211x55,0,0,4
+state	default	

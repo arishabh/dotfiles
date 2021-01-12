@@ -1,0 +1,10 @@
+pane	default	1	:main	0	:-	0	:/home/rishabh/fall2020/c291	0	vim	:vim milestone.txt
+pane	default	1	:main	0	:-	1	:/home/rishabh/fall2020/c291/Fall1-2020/snake_game	1	vim	:vim snake.c
+pane	default	2	:c291	0	:	0	:/home/rishabh/fall2020/c291	1	bash	:
+pane	default	3	:c291-grading	0	:	0	:/home/rishabh/fall2020/c291/sunil/exercises/hw2	1	bash	:
+pane	default	4	:bash	1	:*	0	:/home/rishabh/Desktop	1	bash	:
+window	default	1	0	:-	6903,211x55,0,0{105x55,0,0,1,105x55,106,0,9}
+window	default	2	0	:	c160,211x55,0,0,3
+window	default	3	0	:	c161,211x55,0,0,4
+window	default	4	1	:*	c162,211x55,0,0,5
+state	default	

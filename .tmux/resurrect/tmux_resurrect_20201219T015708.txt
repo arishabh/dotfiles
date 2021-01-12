@@ -1,0 +1,12 @@
+pane	default	1	:bash	0	:-	0	:/home/rishabh	1	bash	:
+pane	default	2	:c291	0	:	0	:/home/rishabh/fall2020/c291/jelenang/snake_game	1	bash	:
+pane	default	3	:c291-grading	1	:*	0	:/home/rishabh/fall2020/c291/nuonach/exercises/makeup	1	bash	:
+pane	default	4	:easyscore	0	:	0	:/home/rishabh/projects/theeasyscore	1	bash	:
+pane	default	4	:easyscore	0	:	1	:/home/rishabh/projects/theeasyscore	0	python3	:python3 app.py
+pane	default	5	:bash	0	:	0	:/home/rishabh/Downloads	1	bash	:
+window	default	1	0	:-	e0e4,211x55,0,0,25
+window	default	2	0	:	c160,211x55,0,0,3
+window	default	3	1	:*	c161,211x55,0,0,4
+window	default	4	0	:	f988,211x55,0,0{105x55,0,0,35,105x55,106,0,32}
+window	default	5	0	:	60df,211x55,0,0,10
+state	default	

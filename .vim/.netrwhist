@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/rishabh/projects/scripts'
+let g:netrw_dirhist_1='/home/rishabh/projects/theeasyscore/templates'
+let g:netrw_dirhist_0='/home/rishabh/projects/theeasyscore'
+let g:netrw_dirhist_9='/home/rishabh/fall2020/c291/andrewault/snake_game'
+let g:netrw_dirhist_8='/home/rishabh/fall2020/c291/andrewault'
+let g:netrw_dirhist_7='/home/rishabh/projects/theeasyscore/.git'
+let g:netrw_dirhist_6='/home/rishabh/projects/theeasyscore/.git/info'
+let g:netrw_dirhist_5='/home/rishabh/projects/theeasyscore/.git'
+let g:netrw_dirhist_4='/home/rishabh/projects/theeasyscore/.git/branches'
+let g:netrw_dirhist_3='/home/rishabh/projects/theeasyscore/.git'
