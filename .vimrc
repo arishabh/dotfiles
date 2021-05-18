@@ -1,12 +1,13 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-fugitive'
-Plug 'gruvbox-community/gruvbox'
+Plug 'morhetz/gruvbox'
 Plug 'vim-scripts/vim-auto-save'
 Plug 'neoclide/coc.nvim'
 Plug 'mbbill/undotree'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
+Plug 'pangloss/vim-javascript'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
@@ -38,6 +39,8 @@ filetype plugin on
 filetype indent on
 let mapleader = ","
 nnoremap <F1> :let @/ = ""<CR>
+nnoremap <leader>y "+y
+nnoremap <leader>yy "+yy
 
 " Give more space for displaying messages.
 set cmdheight=2
@@ -83,15 +86,16 @@ nnoremap <leader>- :vertical resize -5<CR>
 
 nnoremap <leader>u :UndotreeToggle<CR>
 noremap <Leader>y "+y
+noremap <Leader>yip "+yip
 noremap <Leader>p "+p
 
 " vim Fugitive Config
 nnoremap <leader>gc :Gcommit<CR>
 nnoremap <leader>g :Git<CR>
-nnoremap <leader>gp :Gpush<CR>
+nnoremap <leader>gp :Git push<CR>
 
 " Vim airline config
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 2
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
 let g:airline#extensions#tabline#formatter = 'unique_tail'
@@ -121,8 +125,6 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-autocmd FileType python let b:coc_suggest_disable = 1
-
 " Highlight the symbol and its references when holding the cursor.
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
@@ -133,5 +135,4 @@ fun! TrimWhitespace()
     call winrestview(l:save)
 endfun
 
-let g:kite_supported_languages = ['python', 'javascript']
-nnoremap <leader>gd :KiteGotoDefinition<CR>
+let g:javascript_plugin_jsdoc = 1

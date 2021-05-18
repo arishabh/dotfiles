@@ -17,6 +17,8 @@ alias q='exit'
 alias quit='q'
 alias a='alias'
 alias t='gnome-terminal'
+alias cp='cp -r'
+alias hg='h | grep'
 
 alias poweroff='sudo /sbin/poweroff'
 alias reboot='/sbin/reboot'
@@ -40,7 +42,8 @@ alias sb='source ~/.bashrc'
 alias ea='vim ~/.bash_aliases'
 alias sa='source ~/.bash_aliases'
 alias ev='vim ~/.vimrc'
-alias ei='vim ~/.i3/config'
+alias ei='vim ~/.config/i3/config'
+alias eia='vim ~/.config/i3status/config'
 alias et='vim ~/.tmux.conf'
 
 # Monitor layouts

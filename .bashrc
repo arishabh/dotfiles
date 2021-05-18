@@ -1,4 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
+#~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -131,6 +131,7 @@ function gpush() {
 }
 
 TERM=xterm-256color
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-    tmux new -s default
-fi
+
+# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+#     tmux new -s default
+# fi
