@@ -1,0 +1,30 @@
+pane	10	1	:bash	1	:*	0	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	1	:bash	1	:*	1	:/home/rishabh/projects/python-help	1	ssh	:ssh ironstone
+pane	10	1	:bash	1	:*	2	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	2	:htop	0	:-	0	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	2	:htop	0	:-	1	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	2	:htop	0	:-	2	:/home/rishabh/projects/real_estate_app/api	1	bash	:
+pane	10	3	:bash	0	:	0	:/home/rishabh/projects/python-help	0	bash	:
+pane	10	3	:bash	0	:	1	:/home/rishabh	1	bash	:
+pane	10	4	:bash	0	:	0	:/home/rishabh/projects/real_estate_app/frontend/src	1	bash	:
+pane	10	4	:bash	0	:	1	:/home/rishabh/projects/real_estate_app/frontend/src/pages	0	bash	:
+pane	10	6	:bash	0	:	0	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	6	:bash	0	:	1	:/home/rishabh/projects/real_estate_app/api	1	vim	:vim tenant_scrape.py
+pane	default	1	:c343	1	:*	0	:/home/rishabh/Downloads	1	bash	:
+pane	default	2	:e315	0	:	0	:/home/rishabh/sp21/e315/P7_Accel_Dot	1	bash	:
+pane	default	3	:e399	0	:	0	:/home/rishabh/sp21/sp21-599-353/project	1	bash	:
+pane	default	4	:bash	0	:	0	:/home/rishabh/sp21	1	bash	:
+pane	default	8	:bash	0	:-	0	:/home/rishabh/projects/python-help/mastery2	0	bash	:
+pane	default	8	:bash	0	:-	1	:/home/rishabh/projects/python-help/cgi2	1	bash	:
+pane	default	8	:bash	0	:-	2	:/home/rishabh/projects/python-help/mastery2	0	bash	:
+window	10	1	1	:*	7d92,211x54,0,0{105x54,0,0[105x27,0,0,1,105x26,0,28,27],105x54,106,0,26}
+window	10	2	0	:-	cc7e,211x54,0,0{105x54,0,0,3,105x54,106,0[105x26,106,0,4,105x27,106,27,5]}
+window	10	3	0	:	d84c,211x54,0,0{105x54,0,0,18,105x54,106,0,19}
+window	10	4	0	:	e486,211x54,0,0{105x54,0,0,6,105x54,106,0,7}
+window	10	6	0	:	1845,211x54,0,0{105x54,0,0,10,105x54,106,0,21}
+window	default	1	1	:*	5ee0,211x54,0,0,11
+window	default	2	0	:	5ee1,211x54,0,0,12
+window	default	3	0	:	5ee2,211x54,0,0,13
+window	default	4	0	:	dee3,211x54,0,0,24
+window	default	8	0	:-	90f3,211x54,0,0{106x54,0,0,14,104x54,107,0[104x27,107,0,15,104x26,107,28,25]}
+state	10	default

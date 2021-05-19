@@ -1,0 +1,30 @@
+[Data Source]
+DisplayName=rishabhagrawal41@gmail.com
+Enabled=true
+Parent=2b002797873eba2725914d3254109663fb906d44
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://8b70365256d7d6962b980d6be1f2a35368c05601/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+Language=
+
+[Mail Identity]
+Address=rishabhagrawal41@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=44cac3372c5a3cb8542973597a7d3f4bb5e9f082
+RepliesToOriginFolder=false
+UseSentFolder=true

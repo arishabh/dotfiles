@@ -1,0 +1,15 @@
+[Data Source]
+DisplayName=Scrapes left
+Enabled=true
+Parent=local-stub
+
+[Task List]
+BackendName=local
+Color=rgb(190,206,221)
+Selected=true
+
+[Offline]
+StaySynchronized=true
+
+[GNOME To Do]
+ApiVersion=1

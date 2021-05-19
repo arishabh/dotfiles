@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/rishabh/scripts/caps-monitor.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=CapsLock Monitor
+Name=CapsLock Monitor
+Comment[en_US]=
+Comment=

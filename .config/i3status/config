@@ -1,0 +1,82 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+#
+general {
+  colors = true
+  interval = 4
+}
+
+# order += "disk /home"
+order += "disk /"
+# order += "run_watch VPN"
+order += "wireless _first_"
+# order += "ethernet em1"
+order += "battery 0"
+order += "volume master"
+order += "cpu_usage"
+order += "memory"
+order += "time"
+
+wireless wlan0 {
+  format_up = "W: (%quality at %essid) %ip (%speed)"
+  format_down = "W: down"
+}
+
+ethernet em1 {
+  # sudo setcap cap_net_admin=ep $(which i3status)
+  format_up = "E: %ip (%speed)"
+  format_down = "E: down"
+}
+
+battery 0 {
+  format = "%status %percentage %remaining"
+}
+
+run_watch VPN {
+  pidfile = "/var/run/openvpn.pid"
+}
+
+time {
+  format = "%d.%m.%Y %l:%M"
+}
+
+load {
+  format = "%1min"
+}
+
+disk "/" {
+  format = "%free"
+}
+
+disk "/home" {
+  format = "%free"
+}
+
+volume master {
+  format = "♪: %volume"
+  device = "default"
+  mixer = "Master"
+  mixer_idx = 0
+}
+
+memory {
+        format = "%used"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
+
+cpu_usage {
+    # format = "CPU %usage {%cpu0 %cpu1 %cpu3}"
+    format = "CPU %usage"
+    max_threshold = 100
+}
+
+wireless _first_ {
+        format_up = "W:(%quality at %essid)"
+        format_down = "W: down"
+}

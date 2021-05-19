@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/rishabh/projects/scripts/battery-monitor-two.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=Battery Monitor
+Name=Battery Monitor
+Comment[en_US]=
+Comment=

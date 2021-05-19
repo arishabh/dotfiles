@@ -1,0 +1,29 @@
+pane	10	1	:bash	1	:*	0	:/home/rishabh/projects/topshot	0	python3	:/usr/bin/python3 /usr/bin/ipython3
+pane	10	1	:bash	1	:*	1	:/home/rishabh/projects/topshot/project	1	bash	:
+pane	10	2	:ssh	0	:	0	:/home/rishabh	0	ssh	:ssh ironstone
+pane	10	2	:ssh	0	:	1	:/home/rishabh	1	ssh	:ssh ironstone
+pane	10	2	:ssh	0	:	2	:/home/rishabh	0	bash	:
+pane	10	3	:npm	0	:	0	:/home/rishabh/projects/real_estate_app/frontend	1	npm	:npm start
+pane	10	3	:npm	0	:	1	:/home/rishabh/projects/real_estate_app/frontend	0	bash	:
+pane	10	3	:npm	0	:	2	:/home/rishabh/projects/real_estate_app/api	0	python3	:/usr/bin/python3 /home/rishabh/.local/bin/flask run
+pane	10	3	:npm	0	:	3	:/home/rishabh/projects/real_estate_app/api	0	python3	:/usr/bin/python3 /usr/bin/ipython3
+pane	10	4	:bash	0	:	0	:/home/rishabh/projects/real_estate_app/api	0	bash	:
+pane	10	4	:bash	0	:	1	:/home/rishabh/projects/real_estate_app/frontend/src/pages	1	bash	:
+pane	10	6	:bash	0	:-	0	:/home/rishabh/projects/real_estate_app	1	bash	:
+pane	15	1	:bash	1	:*	0	:/home/rishabh	1	bash	:
+pane	default	1	:c343	1	:*	0	:/home/rishabh/sp21/c343	1	bash	:
+pane	default	2	:e315	0	:-	0	:/home/rishabh/sp21/e315	1	bash	:
+pane	default	3	:e399	0	:	0	:/home/rishabh/sp21/sp21-599-353	1	bash	:
+pane	default	8	:bash	0	:	0	:/home/rishabh/projects/real_estate	0	python3	:/usr/bin/python3 /usr/bin/ipython3
+pane	default	8	:bash	0	:	1	:/home/rishabh/projects	1	bash	:
+window	10	1	1	:*	4c7d,211x54,0,0{105x54,0,0,82,105x54,106,0,116}
+window	10	2	0	:	4587,211x54,0,0{105x54,0,0,122,105x54,106,0[105x27,106,0,123,105x26,106,28,124]}
+window	10	3	0	:	c77b,211x54,0,0{105x54,0,0[105x27,0,0,91,105x26,0,28,107],105x54,106,0[105x27,106,0,102,105x26,106,28,104]}
+window	10	4	0	:	edff,211x54,0,0{95x54,0,0,96,115x54,96,0,101}
+window	10	6	0	:-	afa5,211x54,0,0,106
+window	15	1	1	:*	afa7,211x54,0,0,127
+window	default	1	1	:*	bd5f,211x54,0,0,2
+window	default	2	0	:-	bd60,211x54,0,0,3
+window	default	3	0	:	dee6,211x54,0,0,84
+window	default	8	0	:	5849,211x54,0,0{105x54,0,0,62,105x54,106,0,63}
+state	10	15

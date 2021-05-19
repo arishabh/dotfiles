@@ -3,5 +3,6 @@
   "diagnostic.disableByAle": true,
   "suggest.enablePreview": true,
   "yank.highlight.duration": 100,
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "python.pythonPath": "/usr/bin/python3"
 }
